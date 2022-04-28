@@ -1,7 +1,9 @@
-<div id="<%= dom_id tweeet %>">
-  <p>
-    <strong>Tweeet:</strong>
-    <%= tweeet.tweeet %>
-  </p>
+<tr>
+<td> <%= tweeet.tweeet %></td>
+<td> <%= link_to "Mostrar tweet", tweeet %></td>
+<td> <%= link_to "Editar", edit_tweeet_path(tweeet) %></td>
+<td> <%= link_to "Eliminar", tweeet, method: :destroy, data: { confirm: "Estas seguro mi bra?"} %></td>
+</tr>
 
-</div>
+
+
