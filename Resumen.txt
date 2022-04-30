@@ -7,6 +7,12 @@ hay una parte que menciona
 
 clases como guard livereload pueden ir en development
 
+38:38
+
+los panels sirven para poner como una lista de cosas
+panel-heading pones el titulo 
+panel-block es para poner nuevos elementos en el panel
+
 
 
 
