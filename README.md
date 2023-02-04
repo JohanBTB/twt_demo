@@ -1,25 +1,10 @@
-# README
+# DEMO TWITTER CON RUBY
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Functionality
+* CRUD of users
 
-Things you may want to cover:
+* CRUD OF tweets
 
-* Ruby version
+* Views of the CRUDS of users and tweets
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
 # twt_demo

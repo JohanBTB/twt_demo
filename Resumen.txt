@@ -14,6 +14,17 @@ panel-heading pones el titulo
 panel-block es para poner nuevos elementos en el panel
 
 
+despues de hacer el
+rails generate devise model User 
+se crea un controlador llamado "registration_controller"
+dentro de este controlador hay que poner las siguientes funciones privadas
+sign_up_params
+account_update_params
+Estas dos funciones realizan lo mismo que es
+    params.require(:user).permit(:name, :username, :password, :passowrd_confirmation, :current_password ..solo para account_update_params)
+
+
+
 
 
 
